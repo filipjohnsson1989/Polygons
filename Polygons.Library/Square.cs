@@ -1,6 +1,6 @@
 ﻿namespace Polygons.Library;
 
-class Square : ConcreteRegularPolygan
+public class Square : ConcreteRegularPolygan
 {
     public Square(int length) : base(4, length)
     {
@@ -8,3 +8,4 @@ class Square : ConcreteRegularPolygan
 
     public override double GetArea() => SideLength * SideLength;
 }
+
