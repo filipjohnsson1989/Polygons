@@ -7,5 +7,5 @@ public class Triangle : AbstractRegularPolygon
 
     }
 
-    public override double GetArea() => SideLength * SideLength * Math.Sqrt(3) / 4;
+    public  override double GetArea() => SideLength * SideLength * Math.Sqrt(3) / 4;
 }

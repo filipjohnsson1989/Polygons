@@ -1,11 +1,10 @@
 ﻿namespace Polygons.Library;
 
-public class ConcreteRegularPolygan
+public class ConcreteRegularPolygon 
 {
     public int NumberOfSides { get; set; }
     public int SideLength { get; set; }
-
-    public ConcreteRegularPolygan(int side, int length)
+    public ConcreteRegularPolygon(int side, int length)
     {
         NumberOfSides = side;
         SideLength = length;
