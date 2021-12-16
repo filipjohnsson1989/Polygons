@@ -8,4 +8,3 @@ public class Square : ConcreteRegularPolygan
 
     public override double GetArea() => SideLength * SideLength;
 }
-
